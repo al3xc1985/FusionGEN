@@ -1,0 +1,15 @@
+In order for the extended armory to fully function you will need to execute an SQL correlating to your realm version
+
+IE: If you run a 3.3.5a realm, you will need to take use of data_wotlk_(3.3.5a).sql
+
+Instructions
+1. Unzip data_wotlk_(3.3.5a).rar
+2. Execute data_wotlk_(3.3.5a).sql whilst targeting your FusionGEN Database
+3. Access Application/cache and delete folders named "data" and "template"
+4. Reload your website and you should be good to go!
+
+- The entire folder named sqls can be deleted after the steps have been carried out
+- Please be aware that there are some minor bugs with the extended armory version and we will most likely be attempting to correct these at a later time.
+
+Best Regards,
+FusionGEN Maintainers
