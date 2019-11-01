@@ -11,7 +11,7 @@
 					<td width="10%"><img src="{$url}application/images/icons/user.png" /></td>
 					<td width="40%">{lang("nickname", "ucp")}</td>
 					<td width="50%">
-						<a href="{$url}ucp/settings" data-tip="Change nickname" style="float:right;margin-right:10px;"><img src="{$url}application/images/icons/pencil.png" align="absbottom" /></a>
+						<a href="{$url}ucp/settings" data-tip="{lang("change_nickname", "ucp")}" style="float:right;margin-right:10px;"><img src="{$url}application/images/icons/pencil.png" align="absbottom" /></a>
 						<a href="profile/{$id}" data-tip="View profile">{$username}</a>
 					</td>
 				</tr>
@@ -19,15 +19,15 @@
 					<td width="10%"><img src="{$url}application/images/icons/world.png" /></td>
 					<td width="40%">{lang("location", "ucp")}</td>
 					<td width="50%">
-						<a href="{$url}ucp/settings" data-tip="Change location" style="float:right;margin-right:10px;"><img src="{$url}application/images/icons/pencil.png" align="absbottom" /></a>
+						<a href="{$url}ucp/settings" data-tip="{lang("change_location", "ucp")}" style="float:right;margin-right:10px;"><img src="{$url}application/images/icons/pencil.png" align="absbottom" /></a>
 						{$location}
 					</td>
 				</tr>
 				<tr>
 					<td width="10%"><img src="{$url}application/images/icons/plugin.png" /></td>
-					<td width="40%">Expansion</td>
+					<td width="40%">{lang("expansion", "ucp")}</td>
 					<td width="50%">
-						<a href="{$url}ucp/expansion" data-tip="Change expansion" style="float:right;margin-right:10px;"><img src="{$url}application/images/icons/cog.png" align="absbottom" /></a>
+						<a href="{$url}ucp/expansion" data-tip="{lang("change_expansion", "ucp")}" style="float:right;margin-right:10px;"><img src="{$url}application/images/icons/cog.png" align="absbottom" /></a>
 						{$expansion}
 					</td>
 				</tr>
@@ -41,12 +41,12 @@
 
 		<aside>
 			<table width="100%">
-				<tr data-tip="Earn voting points by voting for the server">
+				<tr data-tip="{lang("data_tip_vote", "ucp")}">
 					<td width="10%"><img src="{$url}application/images/icons/lightning.png" /></td>
 					<td width="40%">{lang("voting_points", "ucp")}</td>
 					<td width="50%">{$vp}</td>
 				</tr>
-				<tr data-tip="Earn donation points by donating money to the server">
+				<tr data-tip="{lang("data_tip_donate", "ucp")}">
 					<td width="10%"><img src="{$url}application/images/icons/coins.png" /></td>
 					<td width="40%">{lang("donation_points", "ucp")}</td>
 					<td width="50%">{$dp}</td>
